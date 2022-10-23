@@ -63,6 +63,7 @@ body {
 .Wrapper {
   flex: 0 0 80%;
   max-width: 80%;
+  text-align: center;
 }
 
 .Title {
@@ -72,7 +73,6 @@ body {
   font-size: var(--fontSizeXx);
   font-weight: 400;
   line-height: var(--lineHeightSm);
-  text-align: center;
   text-shadow: -0.1rem 0.1rem 0.2rem var(--colorPrimary800);
 }
 
@@ -104,4 +104,16 @@ body {
 .Input-text:focus {
   outline: none;
   box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+}
+
+footer a,
+img {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer a:hover {
+  text-decoration: wavy underline;
 }
