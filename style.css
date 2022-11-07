@@ -28,10 +28,7 @@
   --inputLineHeight: var(--lineHeightMd);
   --labelScaleFactor: 0.8;
   --labelDefaultPosY: 50%;
-  --labelTransformedPosY: calc(
-    (var(--labelDefaultPosY)) - (var(--inputPaddingV) * var(--labelScaleFactor)) -
-      (var(--inputFontSize) * var(--inputLineHeight))
-  );
+  --labelTransformedPosY: calc((var(--labelDefaultPosY)) - (var(--inputPaddingV) * var(--labelScaleFactor)) - (var(--inputFontSize) * var(--inputLineHeight)));
   --inputTransitionDuration: var(--transitionDuration);
   --inputTransitionTF: var(--transitionTF);
 }
@@ -62,7 +59,6 @@ body {
 
 .Wrapper {
   flex: 0 0 80%;
-  max-width: 80%;
   text-align: center;
 }
 
@@ -85,7 +81,7 @@ body {
   margin: 1em auto;
   padding: var(--inputPaddingV) var(--inputPaddingH);
   color: inherit;
-  width: 50%;
+  width: 100%;
   font-family: inherit;
   font-size: var(--inputFontSize);
   font-weight: inherit;
